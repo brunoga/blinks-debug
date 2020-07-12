@@ -17,7 +17,7 @@
 #ifdef DEBUG_ENABLED
 #include <Serial.h>
 
-#define LOG(x) game::debug::Serial()->print(x)
+#define LOG(x) debug::Serial()->print(x)
 
 namespace debug {
 
