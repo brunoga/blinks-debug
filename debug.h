@@ -18,6 +18,9 @@
 #include <Serial.h>
 
 #define LOG(x) debug::Serial()->print(x)
+#define LOGLN(x) debug::Serial()->println(x)
+#define LOGF(x) debug::Serial()->print(F(x))
+#define LOGFLN(x) debug::Serial()->println(F(x))
 
 namespace debug {
 
@@ -28,6 +31,9 @@ ServicePortSerial* Serial();
 #else
 
 #define LOG(x)
+#define LOGLN(x)
+#define LOGF(x)
+#define LOGFLN(x)
 
 #endif  // DEBUG_ENABLED
 
