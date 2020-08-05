@@ -17,13 +17,10 @@
 #ifdef DEBUG_ENABLED
 #include <Serial.h>
 
-#include "free_memory.h"
-
 #define LOG(x) debug::Serial()->print(x)
 #define LOGLN(x) debug::Serial()->println(x)
 #define LOGF(x) debug::Serial()->print(F(x))
 #define LOGFLN(x) debug::Serial()->println(F(x))
-#define LOGMEM() debug::Serial()->print(support::FreeMemory())
 
 namespace debug {
 
