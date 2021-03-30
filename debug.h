@@ -11,8 +11,8 @@
 // managed by this code (no need to explicitly create it or to call begin() on
 // anything).
 
-#if __has_include("config/debug_config.h")
-#include "config/debug_config.h"
+#if __has_include(<debug_config.h>)
+#include <debug_config.h>
 #endif
 
 #ifdef DEBUG_ENABLED
