@@ -32,8 +32,8 @@
 *.app
 
 # VSCode
-.vscode
-!*/arduino.json
+.vscode/*
+!.vscode/arduino.json
 
 # Output dir
 output
