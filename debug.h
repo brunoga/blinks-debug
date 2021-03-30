@@ -11,8 +11,9 @@
 // managed by this code (no need to explicitly create it or to call begin() on
 // anything).
 
-// Uncomment the line below to enable debugging.
-//#define DEBUG_ENABLED
+#if __has_include("config/debug_config.h")
+#include "config/debug_config.h"
+#endif
 
 #ifdef DEBUG_ENABLED
 #include <Serial.h>
