@@ -34,6 +34,3 @@
 # VSCode
 .vscode/*
 !.vscode/arduino.json
-
-# Output dir
-output
